@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next pisces use-motion" lang="default">
+<html class="theme-next pisces use-motion" lang="-en -zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -103,7 +103,7 @@
 <meta property="og:title" content="HX TECH SPACE">
 <meta property="og:url" content="http://haoxu.tech/archives/index.html">
 <meta property="og:site_name" content="HX TECH SPACE">
-<meta property="og:locale" content="default">
+<meta property="og:locale" content="-en -zh-Hans">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="HX TECH SPACE">
 
@@ -162,7 +162,7 @@
 
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="default">
+<body itemscope itemtype="http://schema.org/WebPage" lang="-en -zh-Hans">
 
   
   
@@ -572,6 +572,30 @@
 
 
 
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  
+  
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail';
+    guest = guest.split(',').filter(function (item) {
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: true,
+        notify: false,
+        appId: '0wr0nCLKHdroCnVy2FzWn5Te-gzGzoHsz',
+        appKey: 'TgmwSoQomwHcNuMaAunGwE5K',
+        placeholder: 'Share your thoughts!',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 
