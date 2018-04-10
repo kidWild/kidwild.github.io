@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>HX TECH SPACE</title>
+  
+  <subtitle>Stay young, Stay simple.</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://haoxu.tech/"/>
+  <updated>2018-04-09T01:34:04.000Z</updated>
+  <id>http://haoxu.tech/</id>
+  
+  <author>
+    <name>HaoXu</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello Elder</title>
+    <link href="http://haoxu.tech/2018/04/09/hello-elder/"/>
+    <id>http://haoxu.tech/2018/04/09/hello-elder/</id>
+    <published>2018-04-09T10:06:01.099Z</published>
+    <updated>2018-04-09T01:34:04.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;当时我就吟了两句诗：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;苟利国家生死以&lt;br&gt;岂因祸福避趋之&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
